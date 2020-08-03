@@ -9,4 +9,8 @@ class App < Sinatra::Base
     puts params
     erb :teams
   end
+
+  get '/teams' do 
+    erb :teams 
+  end
 end
