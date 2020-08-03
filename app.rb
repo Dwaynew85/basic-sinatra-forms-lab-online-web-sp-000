@@ -13,10 +13,10 @@ class App < Sinatra::Base
     @sf = params[:sf]
     @pf = params[:pf]
     @c = params[:c]
-    erb :teams
+    erb :team
   end
 
-  get '/teams' do
-    erb :teams
+  get '/team' do
+    erb :team
   end
 end
